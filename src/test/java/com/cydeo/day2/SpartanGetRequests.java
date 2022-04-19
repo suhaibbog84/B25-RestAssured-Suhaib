@@ -9,6 +9,8 @@ import org.junit.jupiter.api.Test;
 
 public class SpartanGetRequests {
 
+
+
     String url = "http://54.235.2.232:8000";
 
     /*
@@ -88,10 +90,24 @@ public class SpartanGetRequests {
             //verify status code
         Assertions.assertEquals(200, response.statusCode());
 
-        //verify content type
-            Assertions.assertEquals();
-        }
+            //verify content type
+            Assertions.assertEquals("text/plain;charset=UTF-8",response.contentType());
 
+            //verify Date header exists in Response headers
+            //we use hasHeaderWithName method to verify header exists or not - it returns boolean
+            Assertions.assertTrue(response.headers().hasHeaderWithName("Date"));
+
+            //to get header value we use header() method which accepts header name as parameter and return value as string
+            System.out.println("response.header(\"Content-Length\") = " + response.header("Content-Length"));
+            System.out.println("response.header(\"Connection\") = " + response.header("Connection"));
+
+            //verify content length is 17
+            Assertions.assertEquals("17",response.header("Content-Length"));
+
+            //verify body is "hello from sparta"
+            Assertions.assertEquals("Hello from Sparta",response.body().asString());
+
+        }
 
 
 }

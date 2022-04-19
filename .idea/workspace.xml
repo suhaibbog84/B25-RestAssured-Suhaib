@@ -43,7 +43,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanGetRequests.test2">
+  <component name="RunManager" selected="JUnit.SpartanGetRequests.test3">
     <configuration name="SimpleGetRequest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -92,8 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanGetRequests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.SpartanGetRequests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanGetRequests.test3" />
         <item itemvalue="JUnit.SpartanGetRequests.test2" />
         <item itemvalue="JUnit.SpartanGetRequests.test1" />
         <item itemvalue="JUnit.SimpleGetRequest.test1" />

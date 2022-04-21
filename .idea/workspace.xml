@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - utilities HR Test Base">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/HRApiTestsWithParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +45,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanTestWithParameters.test4">
-    <configuration name="SpartanNegativeGetRequest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HRApiTestsWithParams.test2">
+    <configuration name="HRApiTestsWithParams.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
@@ -52,7 +55,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.day2" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.SpartanNegativeGetRequest" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day2.HRApiTestsWithParams" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HRApiTestsWithParams.test2" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test4" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test3" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test2" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test1" />
-        <item itemvalue="JUnit.SpartanNegativeGetRequest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
-      <workItem from="1650394381178" duration="11671000" />
+      <workItem from="1650394381178" duration="12550000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -228,7 +231,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650556033626</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS">
+      <created>1650557648411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650557648412</updated>
+    </task>
+    <task id="LOCAL-00014" summary="day 3 API - utilities HR Test Base">
+      <created>1650557763499</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650557763499</updated>
+    </task>
+    <task id="LOCAL-00015" summary="day 3 API - utilities HR Test Base">
+      <created>1650557785901</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650557785903</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +279,7 @@
     <MESSAGE value="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam" />
     <MESSAGE value="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report" />
     <MESSAGE value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
+    <MESSAGE value="day 3 API - utilities HR Test Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - utilities HR Test Base" />
   </component>
 </project>

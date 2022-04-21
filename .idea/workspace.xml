@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - HR APIn TEST with Params">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithPath.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - Spartan Test with Path">
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day3/HRApiTestsWithParams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day3/SpartanTestWithPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +147,8 @@
       <option name="presentableId" value="Default" />
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
-      <workItem from="1650394381178" duration="13448000" />
+      <workItem from="1650394381178" duration="14537000" />
+      <workItem from="1650565009107" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -279,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650559049728</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day 3 API - Spartan Test with Path">
+      <created>1650559720544</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650559720546</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +319,7 @@
     <MESSAGE value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
     <MESSAGE value="day 3 API - utilities HR Test Base" />
     <MESSAGE value="day 3 API - HR APIn TEST with Params" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - HR APIn TEST with Params" />
+    <MESSAGE value="day 3 API - Spartan Test with Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - Spartan Test with Path" />
   </component>
 </project>

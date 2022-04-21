@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - HR APIn TEST with Params">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/HRApiTestsWithParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/HRApiTestsWithParams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.HRApiTestsWithParams.test2">
+  <component name="RunManager" selected="JUnit.SpartanTestWithPath.test1">
     <configuration name="HRApiTestsWithParams.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -58,22 +56,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day3" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.HRApiTestsWithParams" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanTestWithParameters.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.SpartanTestWithParameters" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,13 +109,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanTestWithPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.SpartanTestWithPath" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanTestWithPath.test1" />
         <item itemvalue="JUnit.HRApiTestsWithParams.test2" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test4" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test3" />
         <item itemvalue="JUnit.SpartanTestWithParameters.test2" />
-        <item itemvalue="JUnit.SpartanTestWithParameters.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
-      <workItem from="1650394381178" duration="12819000" />
+      <workItem from="1650394381178" duration="13448000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -274,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650558786861</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day 3 API - HR APIn TEST with Params">
+      <created>1650559049724</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650559049728</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

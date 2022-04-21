@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanTestWithParameters.java" afterDir="false" />
-    </list>
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
-      <workItem from="1650394381178" duration="10945000" />
+      <workItem from="1650394381178" duration="11671000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650555441633</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS">
+      <created>1650556033625</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650556033626</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +254,7 @@
     <MESSAGE value="day 3 API - test1 GET request to ID 5 using pathParam" />
     <MESSAGE value="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam" />
     <MESSAGE value="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report" />
+    <MESSAGE value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
   </component>
 </project>

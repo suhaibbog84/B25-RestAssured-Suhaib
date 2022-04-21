@@ -47,4 +47,10 @@ public class HRApiTestsWithParams extends HrTestBase {
         assertTrue(response.body().asString().contains("United States of America"));
     }
 
+    /*
+        HW
+        Send a GET request to employees and get only employees who works as a IT_PROG
+
+         */
+
 }

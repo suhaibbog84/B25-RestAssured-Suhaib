@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 2 API - Negative Get Request">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanNegativeGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day2/SpartanNegativeGetRequest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - Get Request and response automation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanTestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27zBGSpROpLiGiq49i5Pg6BQYtB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -143,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
-      <workItem from="1650394381178" duration="6587000" />
+      <workItem from="1650394381178" duration="6876000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650400864323</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day 3 API - Get Request and response automation">
+      <created>1650551299326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551299327</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +209,7 @@
     <MESSAGE value="day 1 API - sending get request" />
     <MESSAGE value="day 2 API - verify response header" />
     <MESSAGE value="day 2 API - Negative Get Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2 API - Negative Get Request" />
+    <MESSAGE value="day 3 API - Get Request and response automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - Get Request and response automation" />
   </component>
 </project>

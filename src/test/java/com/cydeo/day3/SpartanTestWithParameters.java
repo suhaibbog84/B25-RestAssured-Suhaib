@@ -56,15 +56,29 @@ public class SpartanTestWithParameters extends SpartanTestBase {
                 .accept(ContentType.JSON)
                 .and()
                 .pathParam("id", 500)
-                .when()
+        .when()
                 .get("/api/spartans/{id}");
 
         //verify status code
         assertEquals(404,response.statusCode());
         //verify content type
-        assertEquals("application/json",response.contentType());
+        assertEquals("application/json",response.header("Content-Type"));
         //verify "Blythe" inside the payload
         assertTrue(response.body().asString().contains("Not Found"));
     }
+
+    /*
+        Given accept type is Json
+        And query parameter values are:
+        gender|Female
+        nameContains|e
+        When user sends GET request to /api/spartans/search
+        Then response status code should be 200
+        And response content-type: application/json
+        And "Female" should be in response payload
+        And "Janette" should be in response payload
+     */
+
+
 
 }

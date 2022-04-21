@@ -79,6 +79,26 @@ public class SpartanTestWithParameters extends SpartanTestBase {
         And "Janette" should be in response payload
      */
 
+    @DisplayName("GET request to /api/spartans/search with Query Params")
+    @Test
+    public void test3(){
 
+        Response response = given().log().all() //full report on what we used to request
+                .accept(ContentType.JSON)
+                .and().queryParam("gender","Female")
+                .and().queryParam("nameContains","e")
+                .when()
+                .get("/api/spartans/search");
+
+        //verify status code
+        assertEquals(200,response.statusCode());
+        //verify content type
+        assertEquals("application/json",response.contentType());
+        //verify Female inside body
+        assertTrue(response.body().asString().contains("Female"));
+        //verify Janette inside the json body
+        assertTrue(response.body().asString().contains("Janette"));
+
+    }
 
 }

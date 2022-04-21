@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - HR - employees Test with Path">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/SpartanPathWithJsonPath.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - Spartan with Json Path">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day3/HRApiWithJsonPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanPathWithJsonPath.test1">
+  <component name="RunManager" selected="JUnit.HRApiWithJsonPath.test1">
+    <configuration name="HRApiWithJsonPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.HRApiWithJsonPath" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HRApiWithPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -102,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanTestWithPath.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day3" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day3.SpartanTestWithPath" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpartanTestWithPath.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HRApiWithJsonPath.test1" />
         <item itemvalue="JUnit.SpartanPathWithJsonPath.test1" />
         <item itemvalue="JUnit.HRApiWithPath.test2" />
         <item itemvalue="JUnit.HRApiWithPath.test1" />
         <item itemvalue="JUnit.SpartanTestWithPath.test2" />
-        <item itemvalue="JUnit.SpartanTestWithPath.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="4930000" />
+      <workItem from="1650565009107" duration="5683000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650569029849</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="day 3 API - Spartan with Json Path">
+      <created>1650570319006</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650570319006</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +370,7 @@
     <MESSAGE value="day 3 API - HR Test with Path" />
     <MESSAGE value="day 3 API - Spartan Test with Path" />
     <MESSAGE value="day 3 API - HR - employees Test with Path" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - HR - employees Test with Path" />
+    <MESSAGE value="day 3 API - Spartan with Json Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - Spartan with Json Path" />
   </component>
 </project>

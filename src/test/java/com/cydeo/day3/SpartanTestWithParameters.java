@@ -26,9 +26,9 @@ public class SpartanTestWithParameters extends SpartanTestBase {
         Response response =  given()
                 .accept(ContentType.JSON)
                 .and()
-                .pathParam("abc",5)
+                .pathParam("id",5)
                 .when()
-                .get("/api/spartans/{abc}");
+                .get("/api/spartans/{id}");
 
         //verify status code
         assertEquals(200,response.statusCode());
@@ -36,9 +36,35 @@ public class SpartanTestWithParameters extends SpartanTestBase {
         assertEquals("application/json",response.contentType());
         //verify "Blythe" inside the payload
         assertTrue(response.body().asString().contains("Blythe"));
-
-
     }
 
+     /*
+        TASK
+        Given accept type is Json
+        And Id parameter value is 500
+        When user sends GET request to /api/spartans/{id}
+        Then response status code should be 404
+        And response content-type: application/json
+        And "Not Found" message should be in response payload
+     */
+
+    @DisplayName("GET request to /api/spartans/{id} with ID 500, and Error 404")
+    @Test
+    public void test2(){
+
+        Response response = given()
+                .accept(ContentType.JSON)
+                .and()
+                .pathParam("id", 500)
+                .when()
+                .get("/api/spartans/{id}");
+
+        //verify status code
+        assertEquals(404,response.statusCode());
+        //verify content type
+        assertEquals("application/json",response.contentType());
+        //verify "Blythe" inside the payload
+        assertTrue(response.body().asString().contains("Not Found"));
+    }
 
 }

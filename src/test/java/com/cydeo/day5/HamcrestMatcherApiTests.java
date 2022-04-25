@@ -30,7 +30,7 @@ public class HamcrestMatcherApiTests {
                  .and()
                  .pathParam("id", 15)
                  .when()
-                 .get("http://44.201.121.105:8000/api/spartans/{id}")
+                 .get("http://54.235.2.232:8000/api/spartans/{id}")
                  .then()
                  .statusCode(200)
                  .and()

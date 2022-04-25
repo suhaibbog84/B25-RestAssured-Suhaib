@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Hamcrest Matchers Tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - HR Hamcrest Matchers Tests">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="21146000" />
+      <workItem from="1650565009107" duration="21500000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -401,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650903296167</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 5 API - HR Hamcrest Matchers Tests">
+      <created>1650904709349</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1650904709350</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +444,7 @@
     <MESSAGE value="day 4 API - C-Training" />
     <MESSAGE value="day 5 API - Hamcrest Matchers Intro" />
     <MESSAGE value="day 5 API - Hamcrest Matchers Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - Hamcrest Matchers Tests" />
+    <MESSAGE value="day 5 API - HR Hamcrest Matchers Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - HR Hamcrest Matchers Tests" />
   </component>
 </project>

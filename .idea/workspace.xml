@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Hamcrest Matchers Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatcherApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatcherApiTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day5/HamcrestMatcherApiTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day5/HamcrestMatcherApiTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestMatcherApiTests.test3">
+  <component name="RunManager" selected="JUnit.HRHamcrestTest.test1">
+    <configuration name="HRHamcrestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HRHamcrestTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HamcrestMatcherApiTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -103,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestMatchersIntro.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HamcrestMatchersIntro" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HamcrestMatchersIntro.testCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HRHamcrestTest.test1" />
         <item itemvalue="JUnit.HamcrestMatcherApiTests.test3" />
         <item itemvalue="JUnit.HamcrestMatcherApiTests.test2" />
         <item itemvalue="JUnit.HamcrestMatcherApiTests.test1" />
         <item itemvalue="JUnit.HamcrestMatchersIntro.testCollection" />
-        <item itemvalue="JUnit.HamcrestMatchersIntro.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="19874000" />
+      <workItem from="1650565009107" duration="21146000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -395,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650901008137</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="day 5 API - Hamcrest Matchers Tests">
+      <created>1650903296166</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1650903296167</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

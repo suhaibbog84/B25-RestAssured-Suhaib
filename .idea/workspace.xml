@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - HR Hamcrest Matchers Tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HRHamcrestTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Jackson dependency">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/JSONToJAVATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.HRHamcrestTest.test2">
+  <component name="RunManager" selected="JUnit.JSONToJAVATest.getAllSpartan">
     <configuration name="HRHamcrestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -85,38 +86,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamcrestMatcherApiTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HamcrestMatcherApiTests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HamcrestMatcherApiTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HamcrestMatcherApiTests" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HamcrestMatcherApiTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -133,13 +102,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONToJAVATest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.JSONToJAVATest" />
+      <option name="METHOD_NAME" value="getAllSpartan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONToJAVATest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.JSONToJAVATest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JSONToJAVATest.getAllSpartan" />
+        <item itemvalue="JUnit.JSONToJAVATest.test1" />
         <item itemvalue="JUnit.HRHamcrestTest.test2" />
         <item itemvalue="JUnit.HRHamcrestTest.test1" />
         <item itemvalue="JUnit.HamcrestMatcherApiTests.test3" />
-        <item itemvalue="JUnit.HamcrestMatcherApiTests.test2" />
-        <item itemvalue="JUnit.HamcrestMatcherApiTests.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="22225000" />
+      <workItem from="1650565009107" duration="25485000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -414,7 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650904945096</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="day 5 API - HR Hamcrest Matchers Tests">
+      <created>1650905736419</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1650905736419</updated>
+    </task>
+    <task id="LOCAL-00039" summary="day 5 API - Jackson dependency">
+      <created>1650911812647</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1650911812648</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,6 +467,7 @@
     <MESSAGE value="day 5 API - Hamcrest Matchers Intro" />
     <MESSAGE value="day 5 API - Hamcrest Matchers Tests" />
     <MESSAGE value="day 5 API - HR Hamcrest Matchers Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - HR Hamcrest Matchers Tests" />
+    <MESSAGE value="day 5 API - Jackson dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - Jackson dependency" />
   </component>
 </project>

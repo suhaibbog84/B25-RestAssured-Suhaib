@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Jackson library and deserialization">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Spartan Test Base">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/SpartanAPIvsDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +154,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="27850000" />
+      <workItem from="1650565009107" duration="28219000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -440,7 +436,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650913096648</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="day 5 API - DB Utils">
+      <created>1650916220643</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1650916220649</updated>
+    </task>
+    <task id="LOCAL-00042" summary="day 5 API - Oracle dependency">
+      <created>1650916274310</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1650916274313</updated>
+    </task>
+    <task id="LOCAL-00043" summary="day 5 API - Spartan Test Base">
+      <created>1650916433756</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1650916433757</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +497,9 @@
     <MESSAGE value="day 5 API - HR Hamcrest Matchers Tests" />
     <MESSAGE value="day 5 API - Jackson dependency" />
     <MESSAGE value="day 5 API - Jackson library and deserialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - Jackson library and deserialization" />
+    <MESSAGE value="day 5 API - DB Utils" />
+    <MESSAGE value="day 5 API - Oracle dependency" />
+    <MESSAGE value="day 5 API - Spartan Test Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - Spartan Test Base" />
   </component>
 </project>

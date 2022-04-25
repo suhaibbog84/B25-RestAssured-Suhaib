@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 3 API - HR with Json Path">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day4/CTrainingTests.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 4 API - C-Training">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day5/HamcrestMatchersIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +154,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="13533000" />
+      <workItem from="1650565009107" duration="15363000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650639976469</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="day 4 API - C-Training">
+      <created>1650752356790</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1650752356793</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +400,7 @@
     <MESSAGE value="day 3 API - HR - employees Test with Path" />
     <MESSAGE value="day 3 API - Spartan with Json Path" />
     <MESSAGE value="day 3 API - HR with Json Path" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 API - HR with Json Path" />
+    <MESSAGE value="day 4 API - C-Training" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4 API - C-Training" />
   </component>
 </project>

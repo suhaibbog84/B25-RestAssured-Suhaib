@@ -32,7 +32,7 @@ public class HRPojoGetRequestTest extends HrTestBase {
 
         Employee emp1 = jsonPath.getObject("items[0]", Employee.class);
 
-        System.out.println("emp1.getJobId() = " + emp1.getJobId());
+        System.out.println("emp1.getJobId() = " + emp1.getJob_id());
         System.out.println(emp1.getFirstName());
         System.out.println(emp1.getLastName());
         System.out.println(emp1.getSalary());

@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
-import javax.swing.plaf.synth.Region;
 
 public class HRPojoGetRequestTest extends HrTestBase {
 

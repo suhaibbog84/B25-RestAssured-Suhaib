@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Spartan Pojo Get Request">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Spartan Pojo Link Class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +155,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="37033000" />
-    </task>
-    <task id="LOCAL-00009" summary="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam">
-      <created>1650553232445</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1650553232448</updated>
+      <workItem from="1650565009107" duration="37943000" />
     </task>
     <task id="LOCAL-00010" summary="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam">
       <created>1650554503596</created>
@@ -500,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650992681332</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="day6 - Spartan Pojo Link Class">
+      <created>1650998106599</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1650998106601</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 3 API - HR Test with Path" />
     <MESSAGE value="day 3 API - Spartan Test with Path" />
     <MESSAGE value="day 3 API - HR - employees Test with Path" />
     <MESSAGE value="day 3 API - Spartan with Json Path" />
@@ -543,6 +542,7 @@
     <MESSAGE value="day 6 API - Pojo Region Class" />
     <MESSAGE value="r Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Get Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6 - Spartan Pojo Get Request" />
+    <MESSAGE value="day6 - Spartan Pojo Link Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6 - Spartan Pojo Link Class" />
   </component>
 </project>

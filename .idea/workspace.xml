@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo spartan get request">
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo pom.xml Lombok">
       <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/HRPojoGetRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanPojoGetRequestTest.test2">
+  <component name="RunManager" selected="JUnit.HRPojoGetRequestTest.test1">
+    <configuration name="HRPojoGetRequestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.HRPojoGetRequestTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JSONToJAVATest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -69,22 +82,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day5" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.JSONToJAVATest" />
       <option name="METHOD_NAME" value="getAllSpartan" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONToJAVATest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.JSONToJAVATest" />
-      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HRPojoGetRequestTest.test1" />
         <item itemvalue="JUnit.SpartanPojoGetRequestTest.test2" />
         <item itemvalue="JUnit.SpartanPojoGetRequestTest.test1" />
         <item itemvalue="JUnit.SpartanAPIvsDB.test1" />
         <item itemvalue="JUnit.JSONToJAVATest.getAllSpartan" />
-        <item itemvalue="JUnit.JSONToJAVATest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -158,21 +155,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="35745000" />
-    </task>
-    <task id="LOCAL-00003" summary="day 2 API - verify response header">
-      <created>1650399921112</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650399921113</updated>
-    </task>
-    <task id="LOCAL-00004" summary="day 2 API - verify response header">
-      <created>1650400391841</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650400391842</updated>
+      <workItem from="1650565009107" duration="36077000" />
     </task>
     <task id="LOCAL-00005" summary="day 2 API - Negative Get Request">
       <created>1650400864322</created>
@@ -503,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650990875683</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="day 6 API - Pojo Link Class">
+      <created>1650992090373</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1650992090375</updated>
+    </task>
+    <task id="LOCAL-00053" summary="day 6 API - Pojo pom.xml Lombok">
+      <created>1650992139638</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1650992139640</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,8 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 3 API - test1 GET request to ID 5 using pathParam" />
-    <MESSAGE value="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam" />
     <MESSAGE value="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report" />
     <MESSAGE value="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS" />
     <MESSAGE value="day 3 API - utilities HR Test Base" />
@@ -546,6 +541,8 @@
     <MESSAGE value="day 6 API - Pojo spartan get request class" />
     <MESSAGE value="day 6 API - Pojo search class" />
     <MESSAGE value="day 6 API - Pojo spartan get request" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6 API - Pojo spartan get request" />
+    <MESSAGE value="day 6 API - Pojo Link Class" />
+    <MESSAGE value="day 6 API - Pojo pom.xml Lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6 API - Pojo pom.xml Lombok" />
   </component>
 </project>

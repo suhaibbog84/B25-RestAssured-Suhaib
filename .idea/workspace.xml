@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo spartan class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/SpartanPojoGetRequestTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo spartan get request class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,39 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanAPIvsDB.test1">
-    <configuration name="HRHamcrestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HRHamcrestTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HRHamcrestTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.HRHamcrestTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpartanPojoGetRequestTest.test2">
     <configuration name="JSONToJAVATest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -136,13 +103,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanPojoGetRequestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanPojoGetRequestTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanPojoGetRequestTest.test2" />
+        <item itemvalue="JUnit.SpartanPojoGetRequestTest.test1" />
         <item itemvalue="JUnit.SpartanAPIvsDB.test1" />
         <item itemvalue="JUnit.JSONToJAVATest.getAllSpartan" />
         <item itemvalue="JUnit.JSONToJAVATest.test1" />
-        <item itemvalue="JUnit.HRHamcrestTest.test2" />
-        <item itemvalue="JUnit.HRHamcrestTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +155,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="32298000" />
+      <workItem from="1650565009107" duration="32762000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -480,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650987144062</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="day 6 API - Pojo spartan get request class">
+      <created>1650988170696</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1650988170697</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 2 API - Negative Get Request" />
     <MESSAGE value="day 3 API - Get Request and response automation" />
     <MESSAGE value="day 3 API - utilities package and Spartans Test class" />
     <MESSAGE value="day 3 API - test1 GET request to ID 5 using pathParam" />
@@ -523,6 +528,7 @@
     <MESSAGE value="day 5 API - Spartan Test Base" />
     <MESSAGE value="day 5 API - Spartan API vs DB" />
     <MESSAGE value="day 6 API - Pojo spartan class" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6 API - Pojo spartan class" />
+    <MESSAGE value="day 6 API - Pojo spartan get request class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6 API - Pojo spartan get request class" />
   </component>
 </project>

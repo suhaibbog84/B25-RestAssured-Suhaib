@@ -39,27 +39,21 @@ public class CTrainingTestsPojoTest {
     @Test
     public void test1(){
 
-        Response response= given().
+        Response response = given().
                 accept(ContentType.JSON)
                 .and()
                 .pathParam("abc",24103)
                 .when()
-                .get("/student/{abc}");
-
-        response.prettyPrint();
-
-        //verify status code
-        assertEquals(200,response.statusCode());
-
-        //verify content type
-        assertEquals("application/json;charset=UTF-8",response.contentType());
-
-        //how to get any header value ?
-        assertEquals("gzip",response.header("Content-Encoding"));
-
-        //how to verify header exists or not ?
-        assertTrue(response.headers().hasHeaderWithName("Date"));
-
+                .get("/student/{abc}")
+                .then()
+                .statusCode(200)
+                .and()
+                .contentType("application/json;charset=UTF-8")
+                .and()
+                .header("Content-Encoding","gzip")
+                .and()
+                .header("Date",notNullValue())
+                .extract().response();
 
         //payload/body verification
         /*

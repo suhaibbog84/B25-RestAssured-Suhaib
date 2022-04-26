@@ -1,5 +1,6 @@
 package com.cydeo.day6;
 
+import com.cydeo.pojo.Employee;
 import com.cydeo.pojo.Region;
 import com.cydeo.utilities.HrTestBase;
 import io.restassured.path.json.JsonPath;
@@ -22,6 +23,19 @@ public class HRPojoGetRequestTest extends HrTestBase {
         System.out.println(region2.getRegion_name());
         System.out.println(region2.getLinks().get(0).getHref());
 
+    }
+
+    @Test
+    public void test2(){
+
+        JsonPath jsonPath = get("/employees").then().statusCode(200).extract().jsonPath();
+
+        Employee emp1 = jsonPath.getObject("items[0]", Employee.class);
+
+        System.out.println("emp1.getJobId() = " + emp1.getJobId());
+        System.out.println(emp1.getFirstName());
+        System.out.println(emp1.getLastName());
+        System.out.println(emp1.getSalary());
     }
 
 

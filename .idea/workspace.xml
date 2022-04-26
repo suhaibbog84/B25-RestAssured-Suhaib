@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Spartan Pojo Link Class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Employee.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Spartan Pojo Employee Class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/HRPojoGetRequestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/HRPojoGetRequestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,21 +156,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="37943000" />
-    </task>
-    <task id="LOCAL-00010" summary="day 3 API - test2 GET request to ID 500 and status error of 404 using pathParam">
-      <created>1650554503596</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1650554503597</updated>
-    </task>
-    <task id="LOCAL-00011" summary="day 3 API - test3 GET request to Parameter value gender-female and nameContains - e... adding log().all() to get report">
-      <created>1650555441620</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1650555441633</updated>
+      <workItem from="1650565009107" duration="38844000" />
     </task>
     <task id="LOCAL-00012" summary="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS">
       <created>1650556033625</created>
@@ -500,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650998106601</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="day6 - Spartan Pojo Employee Class">
+      <created>1650999162824</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1650999162826</updated>
+    </task>
+    <task id="LOCAL-00060" summary="day6 - Spartan Pojo Employee Class">
+      <created>1650999178469</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1650999178470</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +519,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 3 API - Spartan Test with Path" />
     <MESSAGE value="day 3 API - HR - employees Test with Path" />
     <MESSAGE value="day 3 API - Spartan with Json Path" />
     <MESSAGE value="day 3 API - HR with Json Path" />
@@ -543,6 +543,7 @@
     <MESSAGE value="r Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Link Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6 - Spartan Pojo Link Class" />
+    <MESSAGE value="day6 - Spartan Pojo Employee Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6 - Spartan Pojo Employee Class" />
   </component>
 </project>

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - HR Pojo Employee Class get request Test2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/CTrainingTestsPojoTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Pojo Link class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/CTrainingTestsPojoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/CTrainingTestsPojoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,28 +158,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="39574000" />
-    </task>
-    <task id="LOCAL-00013" summary="day 3 API - test4 GET request to Parameter value gender-female and nameContains - e... using MAPS">
-      <created>1650557648411</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1650557648412</updated>
-    </task>
-    <task id="LOCAL-00014" summary="day 3 API - utilities HR Test Base">
-      <created>1650557763499</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1650557763499</updated>
-    </task>
-    <task id="LOCAL-00015" summary="day 3 API - utilities HR Test Base">
-      <created>1650557785901</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1650557785903</updated>
+      <workItem from="1650565009107" duration="40759000" />
     </task>
     <task id="LOCAL-00016" summary="day 3 API - HR APIn TEST with Params">
       <created>1650558712401</created>
@@ -500,7 +482,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650999973815</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="day6 - HR Pojo Employee Class get request Test2">
+      <created>1651001797247</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1651001797250</updated>
+    </task>
+    <task id="LOCAL-00063" summary="day6 - CTraining Pojo Test">
+      <created>1651001839700</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1651001839704</updated>
+    </task>
+    <task id="LOCAL-00064" summary="day6 - Pojo Link class">
+      <created>1651001868503</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1651001868506</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,8 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 3 API - Spartan with Json Path" />
-    <MESSAGE value="day 3 API - HR with Json Path" />
     <MESSAGE value="day 4 API - C-Training" />
     <MESSAGE value="day 5 API - Hamcrest Matchers Intro" />
     <MESSAGE value="day 5 API - Hamcrest Matchers Tests" />
@@ -543,6 +544,8 @@
     <MESSAGE value="day6 - Spartan Pojo Link Class" />
     <MESSAGE value="day6 - Spartan Pojo Employee Class" />
     <MESSAGE value="day6 - HR Pojo Employee Class get request Test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6 - HR Pojo Employee Class get request Test2" />
+    <MESSAGE value="day6 - CTraining Pojo Test" />
+    <MESSAGE value="day6 - Pojo Link class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6 - Pojo Link class" />
   </component>
 </project>

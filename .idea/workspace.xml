@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo spartan get request class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +156,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="32762000" />
+      <workItem from="1650565009107" duration="33952000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -486,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650988170697</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="day 6 API - Pojo spartan get request class">
+      <created>1650988684927</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1650988684928</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

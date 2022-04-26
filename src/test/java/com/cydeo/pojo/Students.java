@@ -7,5 +7,5 @@ import java.util.List;
 @Data
 public class Students {
 
-    private List<Student>;
+    private List<Student> students;
 }

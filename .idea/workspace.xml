@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 5 API - Spartan API vs DB">
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day 6 API - Pojo spartan class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day6/SpartanPojoGetRequestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -155,7 +156,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="31310000" />
+      <workItem from="1650565009107" duration="32298000" />
     </task>
     <task id="LOCAL-00001" summary="day 1 API - sending get request">
       <created>1650375575752</created>
@@ -472,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650917180359</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="day 6 API - Pojo spartan class">
+      <created>1650987144060</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1650987144062</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 2 API - verify response header" />
     <MESSAGE value="day 2 API - Negative Get Request" />
     <MESSAGE value="day 3 API - Get Request and response automation" />
     <MESSAGE value="day 3 API - utilities package and Spartans Test class" />
@@ -515,6 +522,7 @@
     <MESSAGE value="day 5 API - Oracle dependency" />
     <MESSAGE value="day 5 API - Spartan Test Base" />
     <MESSAGE value="day 5 API - Spartan API vs DB" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5 API - Spartan API vs DB" />
+    <MESSAGE value="day 6 API - Pojo spartan class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6 API - Pojo spartan class" />
   </component>
 </project>

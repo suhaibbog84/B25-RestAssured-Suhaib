@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Pojo CTraining Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/pojo/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - Pojo Students Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,35 +153,7 @@
       <updated>1650312940197</updated>
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
-      <workItem from="1650565009107" duration="41922000" />
-    </task>
-    <task id="LOCAL-00019" summary="day 3 API - HR APIn TEST with Params">
-      <created>1650559049724</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1650559049728</updated>
-    </task>
-    <task id="LOCAL-00020" summary="day 3 API - Spartan Test with Path">
-      <created>1650559720544</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1650559720546</updated>
-    </task>
-    <task id="LOCAL-00021" summary="day 3 API - Spartan Test with Path">
-      <created>1650565213659</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1650565213659</updated>
-    </task>
-    <task id="LOCAL-00022" summary="day 3 API - HR Test with Path">
-      <created>1650565929562</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1650565929563</updated>
+      <workItem from="1650565009107" duration="42217000" />
     </task>
     <task id="LOCAL-00023" summary="day 3 API - HR Test with Path">
       <created>1650567239514</created>
@@ -503,7 +470,35 @@
       <option name="project" value="LOCAL" />
       <updated>1651002889659</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="day6 - Pojo Contact Class">
+      <created>1651004183468</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1651004183469</updated>
+    </task>
+    <task id="LOCAL-00069" summary="day6 - Pojo Student Class">
+      <created>1651004210042</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1651004210051</updated>
+    </task>
+    <task id="LOCAL-00070" summary="day6 - Pojo Students Class">
+      <created>1651004222887</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1651004222887</updated>
+    </task>
+    <task id="LOCAL-00071" summary="day6 - Pojo Students Class">
+      <created>1651004281405</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1651004281413</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,9 +516,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 5 API - HR Hamcrest Matchers Tests" />
-    <MESSAGE value="day 5 API - Jackson dependency" />
-    <MESSAGE value="day 5 API - Jackson library and deserialization" />
     <MESSAGE value="day 5 API - DB Utils" />
     <MESSAGE value="day 5 API - Oracle dependency" />
     <MESSAGE value="day 5 API - Spartan Test Base" />
@@ -546,6 +538,9 @@
     <MESSAGE value="day6 - Pojo Address class" />
     <MESSAGE value="day6 - Pojo Company class" />
     <MESSAGE value="day6 - Pojo CTraining Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6 - Pojo CTraining Test" />
+    <MESSAGE value="day6 - Pojo Contact Class" />
+    <MESSAGE value="day6 - Pojo Student Class" />
+    <MESSAGE value="day6 - Pojo Students Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6 - Pojo Students Class" />
   </component>
 </project>

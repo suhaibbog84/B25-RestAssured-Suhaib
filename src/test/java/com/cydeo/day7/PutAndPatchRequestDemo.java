@@ -54,5 +54,22 @@ public class PutAndPatchRequestDemo extends SpartanTestBase {
 
     }
 
+    @DisplayName("DELETE one spartan")
+    @Test
+    public void test3(){
+
+        int idToDelete = 333;
+
+        given().pathParam("id",idToDelete)
+                .when().delete("/api/spartans/{id}")
+                .then().statusCode(404);
+
+        //HW
+        //we can send GET Request to id number and verify status code is 404
+
+
+
+    }
+
 
 }

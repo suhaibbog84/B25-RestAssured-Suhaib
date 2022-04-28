@@ -131,5 +131,47 @@ public class SpartanPostRequestDemo extends SpartanTestBase {
         response.prettyPrint();
     }
 
+    @DisplayName("POST a spartan Spartan class")
+    @Test
+    public void test4(){
+
+        //create one spartan with Spartan object
+        //POST it
+        //get id number dynamically
+        //send a get request
+        //save information in spartan object
+        //assert that information matching
+
+        //create one object from your pojo, send it as a JSON
+        Spartan spartanPost = new Spartan();
+        spartanPost.setName("Bruce Wayne");
+        spartanPost.setGender("Male");
+        spartanPost.setPhone(8877445596l);
+
+        System.out.println(spartanPost);
+
+        String expectedMessage = "A Spartan is Born!";
+
+        int idFromPost =  given().accept(ContentType.JSON).log().all() // what we are asking from api which is JSON response
+                .and()
+                .contentType(ContentType.JSON) //what we are sending to api, which is JSON request body
+                .body(spartanPost)
+                .when()
+                .post("/api/spartans")
+                .then()
+                .statusCode(201)
+                .contentType("application/json")
+                .body("success",is(expectedMessage))
+                .extract().response().jsonPath().getInt("data.id");
+
+        Spartan spartanGet = given().accept(ContentType.JSON)
+                .and().pathParam("id", idFromPost)
+                .when().get("/api/spartans/{id}")
+                .then().statusCode(200).log().all().extract().response().as(Spartan.class);
+
+        //verify names are matching
+        assertThat(spartanGet.getName(),is(spartanPost.getName()));
+
+    }
 
 }

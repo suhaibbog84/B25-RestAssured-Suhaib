@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - CTraining Pojo Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanPostRequestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day7 - Spartan Post Request" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,14 +154,7 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="2955000" />
-    </task>
-    <task id="LOCAL-00026" summary="day 3 API - Spartan with Json Path">
-      <created>1650570319006</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1650570319006</updated>
+      <workItem from="1651154684642" duration="3653000" />
     </task>
     <task id="LOCAL-00027" summary="day 3 API - HR with Json Path">
       <created>1650571064221</created>
@@ -502,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651160731477</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="day7 - Spartan Post Request">
+      <created>1651163562853</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1651163562854</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +517,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 5 API - DB Utils" />
     <MESSAGE value="day 5 API - Oracle dependency" />
     <MESSAGE value="day 5 API - Spartan Test Base" />
     <MESSAGE value="day 5 API - Spartan API vs DB" />
@@ -545,6 +541,7 @@
     <MESSAGE value="day6 - Pojo Student Class" />
     <MESSAGE value="day6 - Pojo Students Class" />
     <MESSAGE value="day6 - CTraining Pojo Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day6 - CTraining Pojo Test" />
+    <MESSAGE value="day7 - Spartan Post Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="day7 - Spartan Post Request" />
   </component>
 </project>

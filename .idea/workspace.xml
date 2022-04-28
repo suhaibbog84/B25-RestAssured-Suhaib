@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day6 - CTraining Pojo Test">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83f3d09a-e51d-4401-b38c-0a36ebdce360.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83f3d09a-e51d-4401-b38c-0a36ebdce360.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanPostRequestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.CTrainingTestsPojoTest.test1">
+  <component name="RunManager" selected="JUnit.SpartanPostRequestDemo.test2">
     <configuration name="CTrainingTestsPojoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -88,38 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanAPIvsDB.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day5" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day5.SpartanAPIvsDB" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanPojoGetRequestTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day6" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day6.SpartanPojoGetRequestTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpartanPojoGetRequestTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -136,13 +104,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpartanPostRequestDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanPostRequestDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanPostRequestDemo" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanPostRequestDemo.test2" />
+        <item itemvalue="JUnit.SpartanPostRequestDemo.test1" />
         <item itemvalue="JUnit.CTrainingTestsPojoTest.test1" />
         <item itemvalue="JUnit.HRPojoGetRequestTest.test1" />
         <item itemvalue="JUnit.SpartanPojoGetRequestTest.test2" />
-        <item itemvalue="JUnit.SpartanPojoGetRequestTest.test1" />
-        <item itemvalue="JUnit.SpartanAPIvsDB.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +157,7 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="25000" />
-    </task>
-    <task id="LOCAL-00025" summary="day 3 API - HR - employees Test with Path">
-      <created>1650569029848</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1650569029849</updated>
+      <workItem from="1651154684642" duration="2955000" />
     </task>
     <task id="LOCAL-00026" summary="day 3 API - Spartan with Json Path">
       <created>1650570319006</created>
@@ -502,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651004592846</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="day6 - CTraining Pojo Test">
+      <created>1651160731475</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1651160731477</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day7 - Spartan Put and patch Request">
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day7 - Spartan Put and patch nd Delete Request">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/PutAndPatchRequestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/PutAndPatchRequestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/PutAndPatchRequestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/PutAndPatchRequestDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,14 +158,7 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="5257000" />
-    </task>
-    <task id="LOCAL-00030" summary="day 4 API - C-Training">
-      <created>1650752356790</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1650752356793</updated>
+      <workItem from="1651154684642" duration="6660000" />
     </task>
     <task id="LOCAL-00031" summary="day 5 API - Hamcrest Matchers Intro">
       <created>1650896995569</created>
@@ -501,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651170661141</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="day7 - Spartan Put and patch nd Delete Request">
+      <created>1651171142456</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1651171142457</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 5 API - Spartan API vs DB" />
     <MESSAGE value="day 6 API - Pojo spartan class" />
     <MESSAGE value="day 6 API - Pojo spartan get request class" />
     <MESSAGE value="day 6 API - Pojo search class" />
@@ -544,6 +545,7 @@
     <MESSAGE value="day7 - Spartan Post Request" />
     <MESSAGE value="day7 - Spartan Pojo Post Request" />
     <MESSAGE value="day7 - Spartan Put and patch Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="day7 - Spartan Put and patch Request" />
+    <MESSAGE value="day7 - Spartan Put and patch nd Delete Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="day7 - Spartan Put and patch nd Delete Request" />
   </component>
 </project>

@@ -58,7 +58,9 @@ public class PutAndPatchRequestDemo extends SpartanTestBase {
     @Test
     public void test3(){
 
-        int idToDelete = 333;
+        Map<String,Object> deleteRequestMap = new LinkedHashMap<>();
+
+        int idToDelete = 99;
 
         given().pathParam("id",idToDelete)
                 .when().delete("/api/spartans/{id}")
@@ -67,8 +69,11 @@ public class PutAndPatchRequestDemo extends SpartanTestBase {
         //HW
         //we can send GET Request to id number and verify status code is 404
 
-
-
+        given().contentType(ContentType.JSON)
+                .body(deleteRequestMap).log().body()
+                .and().pathParam("id",99)
+                .when().delete("/api/spartans/{id}")
+                .then().statusCode(404);
     }
 
 

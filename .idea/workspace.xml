@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day7 - Spartan Auth TestBase">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanWithAuthTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day7 - Spartan put, Patch, and Delete Requests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day7/SpartanWithAuthHomeWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/PutAndPatchRequestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/PutAndPatchRequestDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/SpartanWithAuthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/SpartanWithAuthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanWithAuthTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanWithAuthTestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +56,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanWithAuthTest.testEditor">
-    <configuration name="PutAndPatchRequestDemo.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpartanWithAuthHomeWork.testAdminPost">
+    <configuration name="SpartanWithAuthHomeWork.testAdminGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
@@ -67,14 +66,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanWithAuthHomeWork" />
+      <option name="METHOD_NAME" value="testAdminGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PutAndPatchRequestDemo.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanWithAuthHomeWork.testAdminPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
@@ -83,8 +82,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.PutAndPatchRequestDemo" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanWithAuthHomeWork" />
+      <option name="METHOD_NAME" value="testAdminPost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminPost" />
+        <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminGet" />
         <item itemvalue="JUnit.SpartanWithAuthTest.testEditor" />
         <item itemvalue="JUnit.SpartanWithAuthTest.test1" />
         <item itemvalue="JUnit.SpartanWithAuthTest.testAdmin" />
-        <item itemvalue="JUnit.PutAndPatchRequestDemo.test3" />
-        <item itemvalue="JUnit.PutAndPatchRequestDemo.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -159,21 +158,7 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="7835000" />
-    </task>
-    <task id="LOCAL-00033" summary="day 5 API - Hamcrest Matchers Tests">
-      <created>1650900591285</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1650900591286</updated>
-    </task>
-    <task id="LOCAL-00034" summary="day 5 API - Hamcrest Matchers Tests">
-      <created>1650901008136</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1650901008137</updated>
+      <workItem from="1651154684642" duration="10490000" />
     </task>
     <task id="LOCAL-00035" summary="day 5 API - Hamcrest Matchers Tests">
       <created>1650903296166</created>
@@ -504,7 +489,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651175802192</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="day7 - Spartan Auth Test class">
+      <created>1651176064490</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1651176064491</updated>
+    </task>
+    <task id="LOCAL-00083" summary="day7 - Spartan put, Patch, and Delete Requests">
+      <created>1651176098315</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1651176098316</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,8 +521,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 6 API - Pojo spartan get request class" />
-    <MESSAGE value="day 6 API - Pojo search class" />
     <MESSAGE value="day 6 API - Pojo spartan get request" />
     <MESSAGE value="day 6 API - Pojo Link Class" />
     <MESSAGE value="day 6 API - Pojo pom.xml Lombok" />
@@ -547,6 +544,8 @@
     <MESSAGE value="day7 - Spartan Put and patch Request" />
     <MESSAGE value="day7 - Spartan Put and patch nd Delete Request" />
     <MESSAGE value="day7 - Spartan Auth TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="day7 - Spartan Auth TestBase" />
+    <MESSAGE value="day7 - Spartan Auth Test class" />
+    <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="day7 - Spartan put, Patch, and Delete Requests" />
   </component>
 </project>

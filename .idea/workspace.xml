@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - FormulaOneXmlTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/FormulaOneXmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/FormulaOneXmlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,21 +156,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="1574000" />
-    </task>
-    <task id="LOCAL-00045" summary="day 5 API - Spartan API vs DB">
-      <created>1650917180359</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1650917180359</updated>
-    </task>
-    <task id="LOCAL-00046" summary="day 6 API - Pojo spartan class">
-      <created>1650987144060</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987144062</updated>
+      <workItem from="1651763256349" duration="1932000" />
     </task>
     <task id="LOCAL-00047" summary="day 6 API - Pojo spartan get request class">
       <created>1650988170696</created>
@@ -502,7 +487,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651764190241</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="day10 - FormulaOneXmlTest">
+      <created>1651764922792</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1651764922793</updated>
+    </task>
+    <task id="LOCAL-00095" summary="day10 - FormulaOneXmlTest">
+      <created>1651765160569</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1651765160575</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

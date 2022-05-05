@@ -12,8 +12,8 @@ public class SpartanTestBase {
         RestAssured.baseURI ="http://44.201.121.105:8000";
 
         String dbUrl ="jdbc:oracle:thin:@44.201.121.105:1521:XE";
-        String dbUsername ="SP";
-        String dbPassword = "SP";
+        String dbUsername ="sp";
+        String dbPassword = "sp";
 
         DBUtils.createConnection(dbUrl,dbUsername,dbPassword);
     }

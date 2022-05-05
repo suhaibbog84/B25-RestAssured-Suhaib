@@ -18,4 +18,12 @@ public class SSLTest {
                 .prettyPrint();
     }
 
+    @Test
+    public void test2(){
+
+        given().keyStore("", "")
+                .when().get("url");
+
+    }
+
 }

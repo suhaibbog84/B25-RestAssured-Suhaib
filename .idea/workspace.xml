@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - Json Schema Validation Test dependencies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - SSL Validation">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +166,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="7325000" />
-    </task>
-    <task id="LOCAL-00055" summary="day 6 API - Pojo Region Class">
-      <created>1650992484612</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1650992484614</updated>
+      <workItem from="1651763256349" duration="8161000" />
     </task>
     <task id="LOCAL-00056" summary="HR Pojo Get Request">
       <created>1650992566699</created>
@@ -512,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651779147070</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="day10 - SSL Validation">
+      <created>1651779839217</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1651779839218</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6 - Pojo Address class" />
     <MESSAGE value="day6 - Pojo Company class" />
     <MESSAGE value="day6 - Pojo CTraining Test" />
     <MESSAGE value="day6 - Pojo Contact Class" />
@@ -555,6 +553,7 @@
     <MESSAGE value="day10 - All Spartan Schema" />
     <MESSAGE value="day10 - Json Schema Validation Test" />
     <MESSAGE value="day10 - Json Schema Validation Test dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 - Json Schema Validation Test dependencies" />
+    <MESSAGE value="day10 - SSL Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 - SSL Validation" />
   </component>
 </project>

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - Response Time Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - All Spartan Schema">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/JsonSchemaValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/ResponseTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/ResponseTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +49,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/cydeo/day10" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/cydeo/day10" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.ResponseTimeTest.test1">
     <configuration name="FormulaOneXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -158,28 +164,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="5391000" />
-    </task>
-    <task id="LOCAL-00050" summary="day 6 API - Pojo spartan get request">
-      <created>1650990231892</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1650990231923</updated>
-    </task>
-    <task id="LOCAL-00051" summary="day 6 API - Pojo spartan get request">
-      <created>1650990875681</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1650990875683</updated>
-    </task>
-    <task id="LOCAL-00052" summary="day 6 API - Pojo Link Class">
-      <created>1650992090373</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1650992090375</updated>
+      <workItem from="1651763256349" duration="6009000" />
     </task>
     <task id="LOCAL-00053" summary="day 6 API - Pojo pom.xml Lombok">
       <created>1650992139638</created>
@@ -503,7 +488,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651768998462</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="day10 - Response Time Test">
+      <created>1651777971898</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1651777971900</updated>
+    </task>
+    <task id="LOCAL-00100" summary="day10 - resources">
+      <created>1651778061417</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1651778061418</updated>
+    </task>
+    <task id="LOCAL-00101" summary="day10 - All Spartan Schema">
+      <created>1651778106523</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1651778106525</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,8 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6 - Spartan Pojo Link Class" />
-    <MESSAGE value="day6 - Spartan Pojo Employee Class" />
     <MESSAGE value="day6 - HR Pojo Employee Class get request Test2" />
     <MESSAGE value="day6 - Pojo Link class" />
     <MESSAGE value="day6 - Pojo Address class" />
@@ -546,6 +550,8 @@
     <MESSAGE value="day10 - Spartan TestBase" />
     <MESSAGE value="day10 - FormulaOneXmlTest" />
     <MESSAGE value="day10 - Response Time Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 - Response Time Test" />
+    <MESSAGE value="day10 - resources" />
+    <MESSAGE value="day10 - All Spartan Schema" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 - All Spartan Schema" />
   </component>
 </project>

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day8 - Spartan Homework">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SpartanXMLTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - XML Spartan Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,22 +55,6 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="JUnit.SpartanXMLTest.test1">
-    <configuration name="SpartanWithAuthHomeWork.testAdminGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanWithAuthHomeWork" />
-      <option name="METHOD_NAME" value="testAdminGet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpartanWithAuthHomeWork.testAdminPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -99,6 +82,22 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day10" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SpartanXMLTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpartanXMLTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SpartanXMLTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpartanXMLTest.test1" />
+        <item itemvalue="JUnit.SpartanXMLTest.test2" />
         <item itemvalue="JUnit.bookItTest.test2" />
         <item itemvalue="JUnit.bookItTest.test1" />
         <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminPost" />
-        <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminGet" />
       </list>
     </recent_temporary>
   </component>
@@ -157,14 +156,8 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="14450000" />
-    </task>
-    <task id="LOCAL-00040" summary="day 5 API - Jackson library and deserialization">
-      <created>1650913096643</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1650913096648</updated>
+      <workItem from="1651154684642" duration="14560000" />
+      <workItem from="1651763256349" duration="342000" />
     </task>
     <task id="LOCAL-00041" summary="day 5 API - DB Utils">
       <created>1650916220643</created>
@@ -502,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651246384261</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="day10 - XML Spartan Test">
+      <created>1651762701734</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1651762701746</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 6 API - Pojo HR Pojo Get  Request" />
     <MESSAGE value="day 6 API - Pojo Region Class" />
     <MESSAGE value="r Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Get Request" />
@@ -545,6 +544,7 @@
     <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests Homework" />
     <MESSAGE value="day8 - BookIt Test" />
     <MESSAGE value="day8 - Spartan Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8 - Spartan Homework" />
+    <MESSAGE value="day10 - XML Spartan Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 - XML Spartan Test" />
   </component>
 </project>

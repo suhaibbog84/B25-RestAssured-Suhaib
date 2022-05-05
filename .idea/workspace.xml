@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day8 - BookIt Test">
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day8 - Spartan Homework">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SpartanXMLTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day8/bookItTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day8/bookItTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/SpartanWithAuthHomeWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day7/SpartanWithAuthHomeWork.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.bookItTest.test2">
+  <component name="RunManager" selected="JUnit.SpartanXMLTest.test1">
     <configuration name="SpartanWithAuthHomeWork.testAdminGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -89,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanWithAuthTest.testEditor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpartanXMLTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanWithAuthTest" />
-      <option name="METHOD_NAME" value="testEditor" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SpartanXMLTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanXMLTest.test1" />
         <item itemvalue="JUnit.bookItTest.test2" />
         <item itemvalue="JUnit.bookItTest.test1" />
         <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminPost" />
         <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminGet" />
-        <item itemvalue="JUnit.SpartanWithAuthTest.testEditor" />
       </list>
     </recent_temporary>
   </component>
@@ -158,21 +157,7 @@
       <workItem from="1650312942507" duration="4800000" />
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
-      <workItem from="1651154684642" duration="11611000" />
-    </task>
-    <task id="LOCAL-00038" summary="day 5 API - HR Hamcrest Matchers Tests">
-      <created>1650905736419</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1650905736419</updated>
-    </task>
-    <task id="LOCAL-00039" summary="day 5 API - Jackson dependency">
-      <created>1650911812647</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1650911812648</updated>
+      <workItem from="1651154684642" duration="14450000" />
     </task>
     <task id="LOCAL-00040" summary="day 5 API - Jackson library and deserialization">
       <created>1650913096643</created>
@@ -503,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651245204853</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="day8 - BookIt Test">
+      <created>1651246361581</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1651246361592</updated>
+    </task>
+    <task id="LOCAL-00088" summary="day8 - Spartan Homework">
+      <created>1651246384259</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1651246384261</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 6 API - Pojo pom.xml Lombok" />
     <MESSAGE value="day 6 API - Pojo HR Pojo Get  Request" />
     <MESSAGE value="day 6 API - Pojo Region Class" />
     <MESSAGE value="r Pojo Get Request" />
@@ -546,6 +544,7 @@
     <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests" />
     <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests Homework" />
     <MESSAGE value="day8 - BookIt Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day8 - BookIt Test" />
+    <MESSAGE value="day8 - Spartan Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="day8 - Spartan Homework" />
   </component>
 </project>

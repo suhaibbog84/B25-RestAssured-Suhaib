@@ -23,7 +23,7 @@ public class ResponseTimeTest extends SpartanWithAuthTestBase {
                 .when().get("api/spartans")
                 .then().statusCode(200)
               .and()
-              .time(lessThanOrEqualTo(1300L))
+              .time(both(greaterThan(300L)).and(lessThan(1200L)))
               .extract().response();
 
         System.out.println("response.getTime() = " + response.getTime());

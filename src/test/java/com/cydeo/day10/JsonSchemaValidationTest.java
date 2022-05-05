@@ -1,7 +1,9 @@
 package com.cydeo.day10;
 
-import com.cydeo.utilities.SpartanAuthTestBase;
+
+import com.cydeo.utilities.SpartanWithAuthTestBase;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.*;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,7 +12,7 @@ import java.io.File;
 
 import static io.restassured.RestAssured.given;
 
-public class JsonSchemaValidationTest extends SpartanAuthTestBase {
+public class JsonSchemaValidationTest extends SpartanWithAuthTestBase {
 
 
     @DisplayName("GET request to verify one spartan against to schema")

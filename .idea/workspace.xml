@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - Json Schema Validation Test">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/JsonSchemaValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/JsonSchemaValidationTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - Json Schema Validation Test dependencies">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <recent name="com.cydeo.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResponseTimeTest.test1">
+  <component name="RunManager" selected="JUnit.SSLTest.test1">
     <configuration name="FormulaOneXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -97,6 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsonSchemaValidationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.JsonSchemaValidationTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResponseTimeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -113,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpartanXMLTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SSLTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
@@ -122,24 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SpartanXMLTest" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SSLTest" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpartanXMLTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SpartanXMLTest" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SSLTest.test1" />
+        <item itemvalue="JUnit.JsonSchemaValidationTest.test1" />
         <item itemvalue="JUnit.ResponseTimeTest.test1" />
         <item itemvalue="JUnit.FormulaOneXmlTest.test1" />
         <item itemvalue="JUnit.FormulaOneXmlTest" />
-        <item itemvalue="JUnit.SpartanXMLTest.test1" />
-        <item itemvalue="JUnit.SpartanXMLTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,14 +167,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="6680000" />
-    </task>
-    <task id="LOCAL-00054" summary="day 6 API - Pojo HR Pojo Get  Request">
-      <created>1650992385461</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1650992385465</updated>
+      <workItem from="1651763256349" duration="7325000" />
     </task>
     <task id="LOCAL-00055" summary="day 6 API - Pojo Region Class">
       <created>1650992484612</created>
@@ -512,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651778477360</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="day10 - Json Schema Validation Test dependencies">
+      <created>1651779147068</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1651779147070</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6 - Pojo Link class" />
     <MESSAGE value="day6 - Pojo Address class" />
     <MESSAGE value="day6 - Pojo Company class" />
     <MESSAGE value="day6 - Pojo CTraining Test" />
@@ -555,6 +554,7 @@
     <MESSAGE value="day10 - resources" />
     <MESSAGE value="day10 - All Spartan Schema" />
     <MESSAGE value="day10 - Json Schema Validation Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 - Json Schema Validation Test" />
+    <MESSAGE value="day10 - Json Schema Validation Test dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 - Json Schema Validation Test dependencies" />
   </component>
 </project>

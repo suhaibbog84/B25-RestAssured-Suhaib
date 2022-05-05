@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - Spartan TestBase">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanTestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/SpartanTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/SpartanTestBase.class" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - FormulaOneXmlTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/FormulaOneXmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/FormulaOneXmlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +55,33 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.SpartanXMLTest.test1">
-    <configuration name="SpartanWithAuthHomeWork.testAdminPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FormulaOneXmlTest.test1">
+    <configuration name="FormulaOneXmlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day7.*" />
+          <option name="PATTERN" value="com.cydeo.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day7" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day7.SpartanWithAuthHomeWork" />
-      <option name="METHOD_NAME" value="testAdminPost" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.FormulaOneXmlTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormulaOneXmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.FormulaOneXmlTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,22 +119,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bookItTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day8" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day8.bookItTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bookItTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FormulaOneXmlTest.test1" />
+        <item itemvalue="JUnit.FormulaOneXmlTest" />
         <item itemvalue="JUnit.SpartanXMLTest.test1" />
         <item itemvalue="JUnit.SpartanXMLTest.test2" />
         <item itemvalue="JUnit.bookItTest.test2" />
-        <item itemvalue="JUnit.bookItTest.test1" />
-        <item itemvalue="JUnit.SpartanWithAuthHomeWork.testAdminPost" />
       </list>
     </recent_temporary>
   </component>
@@ -158,21 +157,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="645000" />
-    </task>
-    <task id="LOCAL-00043" summary="day 5 API - Spartan Test Base">
-      <created>1650916433756</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1650916433757</updated>
-    </task>
-    <task id="LOCAL-00044" summary="day 5 API - Spartan API vs DB">
-      <created>1650916689609</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1650916689610</updated>
+      <workItem from="1651763256349" duration="1574000" />
     </task>
     <task id="LOCAL-00045" summary="day 5 API - Spartan API vs DB">
       <created>1650917180359</created>
@@ -503,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651763862201</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="day10 - Spartan TestBase">
+      <created>1651764110408</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1651764110410</updated>
+    </task>
+    <task id="LOCAL-00093" summary="day10 - FormulaOneXmlTest">
+      <created>1651764190241</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1651764190241</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="r Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Get Request" />
     <MESSAGE value="day6 - Spartan Pojo Link Class" />
     <MESSAGE value="day6 - Spartan Pojo Employee Class" />
@@ -546,6 +544,7 @@
     <MESSAGE value="day8 - Spartan Homework" />
     <MESSAGE value="day10 - XML Spartan Test" />
     <MESSAGE value="day10 - Spartan TestBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 - Spartan TestBase" />
+    <MESSAGE value="day10 - FormulaOneXmlTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="day10 - FormulaOneXmlTest" />
   </component>
 </project>

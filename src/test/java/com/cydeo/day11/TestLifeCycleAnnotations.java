@@ -4,13 +4,13 @@ import org.junit.jupiter.api.*;
 
 public class TestLifeCycleAnnotations {
 
-    //beforeClass is testNg version of beforeAll in Junit
+    //beforeClass is testNg version of beforeAll, same logic
     @BeforeAll
     public static void init(){
         System.out.println("Before all is running");
     }
 
-    //beforeEach Method is testing version
+    //beforeMethod is testing version of BeforeEach, same logic
     @BeforeEach
     public void initEach() {
         System.out.println("\tBefore each is running");

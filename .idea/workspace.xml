@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - SSL Validation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/TestLifeCycleAnnotations.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day11 - Junit5 Parametrized Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ParametrizedTestsInJunit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ParametrizedTestsInJunit5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,66 +65,66 @@
       <recent name="com.cydeo.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLifeCycleAnnotations">
-    <configuration name="FormulaOneXmlTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParametrizedTestsInJunit5.zipCodeTest">
+    <configuration name="ParametrizedTestsInJunit5.testMultipleNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.FormulaOneXmlTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParametrizedTestsInJunit5" />
+      <option name="METHOD_NAME" value="testMultipleNames(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSchemaValidationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTestsInJunit5.testMultipleNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.JsonSchemaValidationTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParametrizedTestsInJunit5" />
+      <option name="METHOD_NAME" value="testMultipleNumbers(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseTimeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTestsInJunit5.zipCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.ResponseTimeTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParametrizedTestsInJunit5" />
+      <option name="METHOD_NAME" value="zipCode(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SSLTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametrizedTestsInJunit5.zipCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.day10.*" />
+          <option name="PATTERN" value="com.cydeo.day11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day10" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day10.SSLTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParametrizedTestsInJunit5" />
+      <option name="METHOD_NAME" value="zipCodeTest(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCodeTest" />
+        <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCode" />
+        <item itemvalue="JUnit.ParametrizedTestsInJunit5.testMultipleNames" />
+        <item itemvalue="JUnit.ParametrizedTestsInJunit5.testMultipleNumbers" />
         <item itemvalue="JUnit.TestLifeCycleAnnotations" />
-        <item itemvalue="JUnit.SSLTest.test1" />
-        <item itemvalue="JUnit.JsonSchemaValidationTest.test1" />
-        <item itemvalue="JUnit.ResponseTimeTest.test1" />
-        <item itemvalue="JUnit.FormulaOneXmlTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,21 +167,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="10532000" />
-    </task>
-    <task id="LOCAL-00057" summary="day6 - Spartan Pojo Get Request">
-      <created>1650992681330</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1650992681332</updated>
-    </task>
-    <task id="LOCAL-00058" summary="day6 - Spartan Pojo Link Class">
-      <created>1650998106599</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1650998106601</updated>
+      <workItem from="1651763256349" duration="13062000" />
     </task>
     <task id="LOCAL-00059" summary="day6 - Spartan Pojo Employee Class">
       <created>1650999162824</created>
@@ -512,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651783443239</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="day11 - Junit5">
+      <created>1651848816257</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1651848816259</updated>
+    </task>
+    <task id="LOCAL-00107" summary="day11 - Junit5 Parametrized Tests">
+      <created>1651849044530</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1651849044532</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,8 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6 - Pojo Company class" />
-    <MESSAGE value="day6 - Pojo CTraining Test" />
     <MESSAGE value="day6 - Pojo Contact Class" />
     <MESSAGE value="day6 - Pojo Student Class" />
     <MESSAGE value="day6 - Pojo Students Class" />
@@ -555,6 +553,8 @@
     <MESSAGE value="day10 - Json Schema Validation Test" />
     <MESSAGE value="day10 - Json Schema Validation Test dependencies" />
     <MESSAGE value="day10 - SSL Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10 - SSL Validation" />
+    <MESSAGE value="day11 - Junit5" />
+    <MESSAGE value="day11 - Junit5 Parametrized Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="day11 - Junit5 Parametrized Tests" />
   </component>
 </project>

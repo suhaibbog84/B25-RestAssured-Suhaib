@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day10 - SSL Validation">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day10/SSLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/TestLifeCycleAnnotations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +167,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="8161000" />
-    </task>
-    <task id="LOCAL-00056" summary="HR Pojo Get Request">
-      <created>1650992566699</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1650992566700</updated>
+      <workItem from="1651763256349" duration="10532000" />
     </task>
     <task id="LOCAL-00057" summary="day6 - Spartan Pojo Get Request">
       <created>1650992681330</created>
@@ -511,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651779839218</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="day10 - SSL Validation">
+      <created>1651783443238</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1651783443239</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

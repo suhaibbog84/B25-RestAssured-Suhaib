@@ -30,11 +30,11 @@ public class ParametrizedTestsInJunit5 {
 
     @ParameterizedTest
     @ValueSource(ints = {22030, 22031, 22032, 22033 , 22034, 22035, 22036})
-    public void zipCodeTest(int zipCode){
+    public void zipCodeTest(int zipCodes){
 
         given()
                 .baseUri("https://api.zippopotam.us")
-                .pathParam("zipCode",zipCode)
+                .pathParam("zipcode",zipCodes)
                 .log().all()
         .when()
                 .get("/us/{zipcode}")

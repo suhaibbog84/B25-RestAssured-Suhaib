@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day11 - Junit5 Parametrized Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/CsvSourceParameterizedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ParametrizedTestsInJunit5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/ParametrizedTestsInJunit5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day11/ParametrizedTestsInJunit5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day11/ParametrizedTestsInJunit5.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ParametrizedTestsInJunit5.zipCodeTest">
+    <configuration name="CsvSourceParameterizedTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.CsvSourceParameterizedTest" />
+      <option name="METHOD_NAME" value="testAddition(int,int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParametrizedTestsInJunit5.testMultipleNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -130,28 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLifeCycleAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.TestLifeCycleAnnotations" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCodeTest" />
+        <item itemvalue="JUnit.CsvSourceParameterizedTest.testAddition" />
         <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCode" />
         <item itemvalue="JUnit.ParametrizedTestsInJunit5.testMultipleNames" />
         <item itemvalue="JUnit.ParametrizedTestsInJunit5.testMultipleNumbers" />
-        <item itemvalue="JUnit.TestLifeCycleAnnotations" />
       </list>
     </recent_temporary>
   </component>
@@ -167,14 +170,7 @@
       <workItem from="1650394381178" duration="14537000" />
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
-      <workItem from="1651763256349" duration="13062000" />
-    </task>
-    <task id="LOCAL-00059" summary="day6 - Spartan Pojo Employee Class">
-      <created>1650999162824</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1650999162826</updated>
+      <workItem from="1651763256349" duration="13751000" />
     </task>
     <task id="LOCAL-00060" summary="day6 - Spartan Pojo Employee Class">
       <created>1650999178469</created>
@@ -512,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651849044532</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="day11 - Junit5 Parametrized Tests">
+      <created>1651851408940</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1651851408947</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

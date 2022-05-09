@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Excel Util and Method source Parameterized test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/BookItQa3.xlsx" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - BookitQa3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,23 @@
       <recent name="com.cydeo.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MethodSourceParameterizedTest.excelParamTest">
+  <component name="RunManager" selected="JUnit.BookitTest.excelParamTest">
+    <configuration name="BookitTest.excelParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day12" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day12.BookitTest" />
+      <option name="METHOD_NAME" value="excelParamTest(java.util.Map)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvFileSourceParameterizedTest.zipCodeTestWithFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -93,22 +109,6 @@
       <option name="PACKAGE_NAME" value="com.cydeo.day11" />
       <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.CsvSourceParameterizedTest" />
       <option name="METHOD_NAME" value="stateAndCityTest(java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsvSourceParameterizedTest.statesAndCities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.CsvSourceParameterizedTest" />
-      <option name="METHOD_NAME" value="statesAndCities(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookitTest.excelParamTest" />
         <item itemvalue="JUnit.MethodSourceParameterizedTest.excelParamTest" />
         <item itemvalue="JUnit.MethodSourceParameterizedTest.testPrintNames" />
         <item itemvalue="JUnit.CsvFileSourceParameterizedTest.zipCodeTestWithFile" />
         <item itemvalue="JUnit.CsvSourceParameterizedTest.stateAndCityTest" />
-        <item itemvalue="JUnit.CsvSourceParameterizedTest.statesAndCities" />
       </list>
     </recent_temporary>
   </component>
@@ -169,21 +169,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="7090000" />
-    </task>
-    <task id="LOCAL-00073" summary="day6 - CTraining Pojo Test">
-      <created>1651004592841</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1651004592846</updated>
-    </task>
-    <task id="LOCAL-00074" summary="day6 - CTraining Pojo Test">
-      <created>1651160731475</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1651160731477</updated>
+      <workItem from="1652103496052" duration="7467000" />
     </task>
     <task id="LOCAL-00075" summary="day7 - Spartan Post Request">
       <created>1651163562853</created>
@@ -514,7 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652111026591</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="day12 - BookitQa3">
+      <created>1652111126027</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1652111126028</updated>
+    </task>
+    <task id="LOCAL-00123" summary="day12 - BookitQa3">
+      <created>1652111132829</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1652111132830</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day7 - Spartan Put and patch Request" />
     <MESSAGE value="day7 - Spartan Put and patch nd Delete Request" />
     <MESSAGE value="day7 - Spartan Auth TestBase" />
     <MESSAGE value="day7 - Spartan Auth Test class" />
@@ -557,6 +556,7 @@
     <MESSAGE value="day12 - Apache POI Dependency" />
     <MESSAGE value="day12 - Excel Util" />
     <MESSAGE value="day12 - Excel Util and Method source Parameterized test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Excel Util and Method source Parameterized test" />
+    <MESSAGE value="day12 - BookitQa3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - BookitQa3" />
   </component>
 </project>

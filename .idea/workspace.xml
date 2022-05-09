@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Excel Util">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/ExcelUtilPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/MethodSourceParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/MethodSourceParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/ExcelUtil.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Excel Util and Method source Parameterized test">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BookItQa3.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +169,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="6795000" />
-    </task>
-    <task id="LOCAL-00072" summary="day6 - CTraining Pojo Test">
-      <created>1651004432778</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1651004432782</updated>
+      <workItem from="1652103496052" duration="7090000" />
     </task>
     <task id="LOCAL-00073" summary="day6 - CTraining Pojo Test">
       <created>1651004592841</created>
@@ -517,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652109708383</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="day12 - Excel Util and Method source Parameterized test">
+      <created>1652111026590</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1652111026591</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day7 - Spartan Pojo Post Request" />
     <MESSAGE value="day7 - Spartan Put and patch Request" />
     <MESSAGE value="day7 - Spartan Put and patch nd Delete Request" />
     <MESSAGE value="day7 - Spartan Auth TestBase" />
@@ -560,6 +556,7 @@
     <MESSAGE value="day12 - VyTrack Csv file" />
     <MESSAGE value="day12 - Apache POI Dependency" />
     <MESSAGE value="day12 - Excel Util" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Excel Util" />
+    <MESSAGE value="day12 - Excel Util and Method source Parameterized test" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Excel Util and Method source Parameterized test" />
   </component>
 </project>

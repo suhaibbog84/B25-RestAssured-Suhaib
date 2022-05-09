@@ -1,5 +1,6 @@
 package com.cydeo.day12;
 
+import io.restassured.http.ContentType;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
@@ -16,6 +17,17 @@ public class CsvFileSourceParameterizedTest {
         System.out.println("state = " + state);
         System.out.println("city = " + city);
         System.out.println("zipCount = " + zipCount);
+
+        given()
+                .accept(ContentType.JSON)
+                .baseUri("https://api.zippopotam.us")
+                .and().pathParam("state",state)
+                .and().pathParam("city", city)
+        .when()
+                .get("/us/{state}/{city}")
+        .then()
+                .statusCode(200)
+                .and().body("places",hasSize(zipCount));
 
 
     }

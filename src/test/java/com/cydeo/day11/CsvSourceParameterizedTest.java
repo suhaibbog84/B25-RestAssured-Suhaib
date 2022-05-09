@@ -56,7 +56,7 @@ public class CsvSourceParameterizedTest {
             "MD, Annapolis"})
     public void stateAndCityTest(String state,String city){
 
-       given()
+       int placeNumber = given()
                 .accept(ContentType.JSON)
                 .baseUri("https://api.zippopotam.us")
                 .and().pathParam("state",state)
@@ -65,8 +65,10 @@ public class CsvSourceParameterizedTest {
                 .get("/us/{state}/{city}")
        .then()
                 .statusCode(200)
-                .and().body("places.'place name'",everyItem(containsString(city)));
+                .and().body("places.'place name'",everyItem(containsStringIgnoringCase(city)))
+               .extract().jsonPath().getList("places").size();
 
+        System.out.println("placeNumber = " + placeNumber);
 
 
     }

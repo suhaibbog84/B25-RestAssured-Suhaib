@@ -19,17 +19,24 @@ public class SpartanSpecTest extends SpartanNewBase {
 
     @Test
     public void test1(){
+
+//        RequestSpecification reqSpec = given()
+//                                         .accept(ContentType.JSON)
+//                                         .and()
+//                                         .auth().basic("admin", "admin")
+//                                          .log().all();
+//
+//        ResponseSpecification responseSpec = expect().statusCode(200)
+//                                                      .and()
+//                                                 .contentType(ContentType.JSON);
+
         given()
-                .accept(ContentType.JSON)
-                .and()
-                .auth().basic("admin","admin")
-                .log().all()
+                .spec(reqSpec)
                 .when()
                 .get("/spartans")
                 .then()
-                .statusCode(200)
-                .and()
-                .contentType(ContentType.JSON);
+                .spec(responseSpec);
+
 
 
     }
@@ -37,17 +44,14 @@ public class SpartanSpecTest extends SpartanNewBase {
     @Test
     public void test2(){
         given()
-                .accept(ContentType.JSON)
+                .spec(userSpec)
                 .and()
-                .auth().basic("admin","admin")
                 .pathParam("id",8)
-                .log().all()
                 .when()
                 .get("/spartans/{id}")
                 .then()
-                .statusCode(200)
-                .and()
-                .contentType(ContentType.JSON);
+                .spec(responseSpec)
+                .body("gender",is("Male"));
 
 
     }

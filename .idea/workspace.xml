@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Bookit Specification Test">
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Bookit TestBase Util">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day12/OldRestAssuredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day12/OldRestAssuredTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/SpartanNewBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/utilities/SpartanNewBase.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,23 @@
       <recent name="com.cydeo.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OldRestAssuredTest.getAllSpartan">
+  <component name="RunManager" selected="JUnit.BookitSpecTest.test1">
+    <configuration name="BookitSpecTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day12" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day12.BookitSpecTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookitTest.excelBookitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -114,22 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodSourceParameterizedTest.testPrintNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day12" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day12.MethodSourceParameterizedTest" />
-      <option name="METHOD_NAME" value="testPrintNames(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OldRestAssuredTest.getAllSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookitSpecTest.test1" />
         <item itemvalue="JUnit.OldRestAssuredTest.getAllSpartan" />
         <item itemvalue="JUnit.BookitTest.excelBookitTest" />
         <item itemvalue="JUnit.BookitTest.excelParamTest" />
         <item itemvalue="JUnit.MethodSourceParameterizedTest.excelParamTest" />
-        <item itemvalue="JUnit.MethodSourceParameterizedTest.testPrintNames" />
       </list>
     </recent_temporary>
   </component>
@@ -169,21 +172,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="14016000" />
-    </task>
-    <task id="LOCAL-00088" summary="day8 - Spartan Homework">
-      <created>1651246384259</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1651246384261</updated>
-    </task>
-    <task id="LOCAL-00089" summary="day10 - XML Spartan Test">
-      <created>1651762701734</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1651762701746</updated>
+      <workItem from="1652103496052" duration="15255000" />
     </task>
     <task id="LOCAL-00090" summary="day10 - Spartan TestBase">
       <created>1651763825221</created>
@@ -514,7 +503,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652122600125</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="day12 - Bookit Specification Test">
+      <created>1652123782089</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1652123782090</updated>
+    </task>
+    <task id="LOCAL-00138" summary="day12 - Bookit TestBase Util">
+      <created>1652123884513</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1652123884514</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day10 - Spartan TestBase" />
     <MESSAGE value="day10 - FormulaOneXmlTest" />
     <MESSAGE value="day10 - Response Time Test" />
     <MESSAGE value="day10 - resources" />
@@ -557,6 +559,7 @@
     <MESSAGE value="day12 - Bookit Spec Test" />
     <MESSAGE value="day12 - Conf Reader" />
     <MESSAGE value="day12 - Bookit Specification Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Bookit Specification Test" />
+    <MESSAGE value="day12 - Bookit TestBase Util" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Bookit TestBase Util" />
   </component>
 </project>

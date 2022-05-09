@@ -7,6 +7,6 @@ import static io.restassured.RestAssured.*;
 
 public class BookitSpecTest {
 
-    @Test
+
 
 }

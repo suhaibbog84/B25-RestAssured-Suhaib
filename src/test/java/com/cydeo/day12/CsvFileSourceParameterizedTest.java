@@ -10,6 +10,10 @@ import static io.restassured.RestAssured.*;
 
 public class CsvFileSourceParameterizedTest {
 
+    // Write a parameterized test for this request
+    // Get the data from csv source
+    // GET https://api.zippopotam.us/us/{state}/{city}
+
     @ParameterizedTest
     @CsvFileSource(resources = "/postalcode.csv",numLinesToSkip = 1)
     public void zipCodeTestWithFile(String state, String city, int zipCount){

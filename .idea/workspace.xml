@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Csv Source File Parameterized Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/MethodSourceParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Csv Source File Parameterized Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,14 +166,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="4595000" />
-    </task>
-    <task id="LOCAL-00066" summary="day6 - Pojo Company class">
-      <created>1651002849520</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002849521</updated>
+      <workItem from="1652103496052" duration="5305000" />
     </task>
     <task id="LOCAL-00067" summary="day6 - Pojo CTraining Test">
       <created>1651002889658</created>
@@ -514,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652107484992</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="day12 - Csv Source File Parameterized Test">
+      <created>1652108269779</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1652108269781</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

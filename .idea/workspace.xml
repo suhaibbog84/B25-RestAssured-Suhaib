@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Spartan New Base">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Bppkit Test Base">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +169,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="15584000" />
-    </task>
-    <task id="LOCAL-00093" summary="day10 - FormulaOneXmlTest">
-      <created>1651764190241</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1651764190241</updated>
+      <workItem from="1652103496052" duration="16970000" />
     </task>
     <task id="LOCAL-00094" summary="day10 - FormulaOneXmlTest">
       <created>1651764922792</created>
@@ -514,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652125068994</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="day12 - Bppkit Test Base">
+      <created>1652125538267</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1652125538270</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day10 - FormulaOneXmlTest" />
     <MESSAGE value="day10 - Response Time Test" />
     <MESSAGE value="day10 - resources" />
     <MESSAGE value="day10 - All Spartan Schema" />
@@ -557,6 +556,7 @@
     <MESSAGE value="day12 - Bookit TestBase Util" />
     <MESSAGE value="day12 - Old Rest Assured Test" />
     <MESSAGE value="day12 - Spartan New Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Spartan New Base" />
+    <MESSAGE value="day12 - Bppkit Test Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Bppkit Test Base" />
   </component>
 </project>

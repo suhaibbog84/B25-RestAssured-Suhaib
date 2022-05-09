@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day11 - Csv Source Parameterized Test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/postalcode.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/CsvSourceParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day11/CsvSourceParameterizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cydeo/day11/CsvSourceParameterizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cydeo/day11/CsvSourceParameterizedTest.class" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Csv Source File Parameterized Test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/CsvFileSourceParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/CsvFileSourceParameterizedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,23 @@
       <recent name="com.cydeo.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CsvSourceParameterizedTest.stateAndCityTest">
+  <component name="RunManager" selected="JUnit.CsvFileSourceParameterizedTest.zipCodeTestWithFile">
+    <configuration name="CsvFileSourceParameterizedTest.zipCodeTestWithFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B25-RestAssured-Suhaib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.day12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cydeo.day12" />
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.day12.CsvFileSourceParameterizedTest" />
+      <option name="METHOD_NAME" value="zipCodeTestWithFile(java.lang.String,java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvSourceParameterizedTest.stateAndCityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -116,22 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametrizedTestsInJunit5.zipCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="B25-RestAssured-Suhaib" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.day11" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.day11.ParametrizedTestsInJunit5" />
-      <option name="METHOD_NAME" value="zipCode(int)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ParametrizedTestsInJunit5.zipCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="B25-RestAssured-Suhaib" />
       <extension name="coverage">
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CsvFileSourceParameterizedTest.zipCodeTestWithFile" />
         <item itemvalue="JUnit.CsvSourceParameterizedTest.stateAndCityTest" />
         <item itemvalue="JUnit.CsvSourceParameterizedTest.statesAndCities" />
         <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCodeTest" />
         <item itemvalue="JUnit.CsvSourceParameterizedTest.testAddition" />
-        <item itemvalue="JUnit.ParametrizedTestsInJunit5.zipCode" />
       </list>
     </recent_temporary>
   </component>
@@ -171,21 +168,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="2877000" />
-    </task>
-    <task id="LOCAL-00062" summary="day6 - HR Pojo Employee Class get request Test2">
-      <created>1651001797247</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1651001797250</updated>
-    </task>
-    <task id="LOCAL-00063" summary="day6 - CTraining Pojo Test">
-      <created>1651001839700</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1651001839704</updated>
+      <workItem from="1652103496052" duration="3245000" />
     </task>
     <task id="LOCAL-00064" summary="day6 - Pojo Link class">
       <created>1651001868503</created>
@@ -516,7 +499,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652104264849</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="day11 - Csv Source Parameterized Test">
+      <created>1652106555286</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1652106555287</updated>
+    </task>
+    <task id="LOCAL-00112" summary="day12 - Csv Source File Parameterized Test">
+      <created>1652106669423</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1652106669424</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day6 - Pojo Student Class" />
     <MESSAGE value="day6 - Pojo Students Class" />
     <MESSAGE value="day6 - CTraining Pojo Test" />
     <MESSAGE value="day7 - Spartan Post Request" />
@@ -559,6 +555,7 @@
     <MESSAGE value="day11 - Junit5" />
     <MESSAGE value="day11 - Junit5 Parametrized Tests" />
     <MESSAGE value="day11 - Csv Source Parameterized Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day11 - Csv Source Parameterized Test" />
+    <MESSAGE value="day12 - Csv Source File Parameterized Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Csv Source File Parameterized Test" />
   </component>
 </project>

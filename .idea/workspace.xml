@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Old Rest Assured Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/SpartanSpecTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Spartan New Base">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanNewBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/utilities/SpartanNewBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,28 +169,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="11849000" />
-    </task>
-    <task id="LOCAL-00080" summary="day7 - Spartan Put and patch nd Delete Request">
-      <created>1651174858689</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1651174858690</updated>
-    </task>
-    <task id="LOCAL-00081" summary="day7 - Spartan Auth TestBase">
-      <created>1651175802190</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1651175802192</updated>
-    </task>
-    <task id="LOCAL-00082" summary="day7 - Spartan Auth Test class">
-      <created>1651176064490</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1651176064491</updated>
+      <workItem from="1652103496052" duration="12169000" />
     </task>
     <task id="LOCAL-00083" summary="day7 - Spartan put, Patch, and Delete Requests">
       <created>1651176098315</created>
@@ -515,7 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652115191369</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="day12 - Spartan Spec Test">
+      <created>1652121062651</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1652121062655</updated>
+    </task>
+    <task id="LOCAL-00130" summary="day12 - Spartan Spec Test">
+      <created>1652121119207</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1652121119208</updated>
+    </task>
+    <task id="LOCAL-00131" summary="day12 - Spartan New Base">
+      <created>1652121177847</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1652121177853</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests" />
     <MESSAGE value="day7 - Spartan put, Patch, and Delete Requests Homework" />
     <MESSAGE value="day8 - BookIt Test" />
     <MESSAGE value="day8 - Spartan Homework" />
@@ -556,8 +554,9 @@
     <MESSAGE value="day12 - Excel Util and Method source Parameterized test" />
     <MESSAGE value="day12 - BookitQa3" />
     <MESSAGE value="day12 - BookitQa3&#10;Excel File" />
-    <MESSAGE value="day12 - Spartan New Base" />
     <MESSAGE value="day12 - Old Rest Assured Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Old Rest Assured Test" />
+    <MESSAGE value="day12 - Spartan Spec Test" />
+    <MESSAGE value="day12 - Spartan New Base" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Spartan New Base" />
   </component>
 </project>

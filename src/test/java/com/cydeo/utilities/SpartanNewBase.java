@@ -2,6 +2,8 @@ package com.cydeo.utilities;
 
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.AfterAll;
@@ -9,7 +11,7 @@ import static io.restassured.RestAssured.*;
 
 public class SpartanNewBase {
 
-    public static  RequestSpecification reqSpec;
+    public static RequestSpecification reqSpec;
     public static ResponseSpecification responseSpec;
     public static RequestSpecification userSpec;
     public static RequestSpecification adminSpec;
@@ -39,7 +41,7 @@ public class SpartanNewBase {
 
     @AfterAll
     public static void close(){
-        //reste the info we set above, method comes from restassured
+        //reset the info we set above, method comes from restassured
         reset();
     }
 

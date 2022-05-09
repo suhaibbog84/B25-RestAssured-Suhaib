@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Conf Reader">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b68bd6da-3a4a-4301-b832-3db1a8eb827f" name="Changes" comment="day12 - Bookit Specification Test">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/day12/BookitSpecTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,14 +169,7 @@
       <workItem from="1650565009107" duration="44159000" />
       <workItem from="1651154684642" duration="14560000" />
       <workItem from="1651763256349" duration="17214000" />
-      <workItem from="1652103496052" duration="13362000" />
-    </task>
-    <task id="LOCAL-00087" summary="day8 - BookIt Test">
-      <created>1651246361581</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1651246361592</updated>
+      <workItem from="1652103496052" duration="14016000" />
     </task>
     <task id="LOCAL-00088" summary="day8 - Spartan Homework">
       <created>1651246384259</created>
@@ -515,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652121787155</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="day12 - Bookit Specification Test">
+      <created>1652122600124</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1652122600125</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day10 - XML Spartan Test" />
     <MESSAGE value="day10 - Spartan TestBase" />
     <MESSAGE value="day10 - FormulaOneXmlTest" />
     <MESSAGE value="day10 - Response Time Test" />
@@ -558,6 +556,7 @@
     <MESSAGE value="day12 - Configurations Properties and Reader" />
     <MESSAGE value="day12 - Bookit Spec Test" />
     <MESSAGE value="day12 - Conf Reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="day12 - Conf Reader" />
+    <MESSAGE value="day12 - Bookit Specification Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="day12 - Bookit Specification Test" />
   </component>
 </project>
